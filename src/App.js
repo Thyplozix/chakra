@@ -19,7 +19,7 @@ function App() {
           <VStack spacing={8}>
             <Logo h="40vmin" pointerEvents="none" />
             <Text>
-              This is just some text
+              This is just some text for testing for Avaddov
             </Text>
           </VStack>
         </Grid>
