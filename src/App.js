@@ -6,16 +6,10 @@ import {
   VStack,
   Grid,
   theme,
-  Drawer,
-  DrawerBody,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerCloseButton,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
+import { Drawer } from '@chakra-ui/react';
 
 function App() {
   return (
@@ -28,6 +22,7 @@ function App() {
             <Text>
               This is just some text for testing for Avaddov
             </Text>
+            <Drawer/>
           </VStack>
         </Grid>
       </Box>
